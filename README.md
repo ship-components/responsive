@@ -21,7 +21,9 @@ import ResponsiveContainer from 'ship-components-responsive';
 function EmbedPlayer(props) {
   const {
     src,
-    containerWidth
+    // The following two props are passed from ResponsiveContainer
+    containerWidth,
+    containerHeight
   } = props;
   return (
     <iframe
@@ -53,9 +55,11 @@ export default function EmbedPlayerWrapper(props) {
 ```
 
 ## Tests
-
 1. `npm install`
 2. `npm test`
+
+## To do
+* Add min/max height and widths
 
 ## History
 * 0.1.0 - Initial
