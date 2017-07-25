@@ -14,7 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/ship-components/ship-components-responsive.git"
   },
-  "author": "",
+  "keywords": ["react", "responsive", "babel"],
+  "author": "Isaac Suttell <isaac.suttell@sony.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ship-components/ship-components-responsive/issues"
