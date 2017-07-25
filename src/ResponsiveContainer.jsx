@@ -65,13 +65,6 @@ export default class ResponsiveContainer extends Component {
    * @return    {Object}
    */
   getContainerSize() {
-    if (!this.refs.container) {
-      return {
-        containerWidth: -1,
-        containerHeight: -1
-      };
-    }
-
     return {
       containerWidth: parseInt(this.refs.container.clientWidth, 10),
       containerHeight: parseInt(this.refs.container.clientHeight, 10)
